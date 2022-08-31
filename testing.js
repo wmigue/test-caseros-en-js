@@ -1,5 +1,5 @@
 import assert from 'node:assert'
-import { isVocal } from './index.js'
+import { isVocal } from './funciones.js'
 
 const test = (nombre, valor, funcion) => {
     try {
@@ -12,4 +12,4 @@ const test = (nombre, valor, funcion) => {
 
 }
 
-test("¿ES VOCAL O NO?", "k" ,isVocal)
+test("¿ES VOCAL O NO?", "a" ,isVocal)
